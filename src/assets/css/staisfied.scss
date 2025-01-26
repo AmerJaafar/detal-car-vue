@@ -1,0 +1,30 @@
+.reviews {
+  @apply py-8 bg-lightBg;
+  h1 {
+    @apply text-2 font-bold text-center my-8;
+  }
+  .box-container {
+    @apply container mx-auto w-90 grid grid-cols-20 gap-8;
+    div {
+      @apply max-[320px]:w-90 p-8 rounded-lg text-center shadow-2xl bg-myWight;
+      img {
+        @apply w-40 rounded-full mx-auto h-40;
+      }
+      h3 {
+        @apply text-1.5 text-myBlack font-semibold;
+      }
+      p {
+        @apply text-1 text-lightColor leading-loose py-8;
+      }
+      span {
+        @apply text-lightColor text-1;
+      }
+      .stars {
+        @apply px-6 py-2 rounded-lg bg-lightBg mb-8 inline-block;
+        i {
+          @apply text-1.5 text-myblue;
+        }
+      }
+    }
+  }
+}

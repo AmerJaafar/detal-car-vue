@@ -1,0 +1,18 @@
+.home {
+  @apply bg-cover bg-no-repeat bg-left md:bg-center bg-hero bg-fixed;
+  .container- {
+    @apply container mx-auto py-4;
+  }
+  .flex- {
+    @apply flex min-h-screen items-center justify-center;
+  }
+  .content {
+    @apply text-center md:px-8 md:text-left w-auto md:w-50;
+    h1 {
+      @apply text-2 font-extrabold uppercase text-myblue;
+    }
+    p {
+      @apply my-5 text-1 leading-loose text-lightColor py-4;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.process {
+  @apply py-8;
+  h1 {
+    @apply text-2 font-bold text-center my-8;
+  }
+  .box-container {
+    @apply container mx-auto w-90 grid grid-cols-20 gap-8;
+    div {
+      @apply max-[320px]:w-90  bg-myblue p-8 rounded-lg text-center shadow-2xl;
+      img {
+        @apply w-80 mx-auto h-80;
+      }
+    }
+    h3 {
+      @apply text-1.5 font-medium text-myBlack py-4;
+    }
+    p {
+      @apply text-1 text-lightColor leading-loose;
+    }
+  }
+}

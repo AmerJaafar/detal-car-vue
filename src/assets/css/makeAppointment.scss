@@ -1,0 +1,24 @@
+.make-appointment {
+  @apply py-8;
+  h1 {
+    @apply text-2 font-bold text-center my-8;
+  }
+  form {
+    @apply rounded-lg bg-lightBg p-8 mx-auto max-w-3xl;
+    p.message {
+      @apply mb-8 rounded-lg bg-myblue px-4 py-5 text-1.5 text-myWight text-center;
+    }
+    span {
+      @apply block text-red text-1;
+    }
+    label {
+      @apply text-1.5 text-myBlack;
+    }
+    input.box {
+      @apply w-full mt-4 mb-8 rounded-lg bg-myWight text-1.5 py-5 px-6 text-myBlack normal-case focus:outline-0;
+    }
+    input.btn {
+      @apply inline-block py-4  bg-myblue  text-myWight text-1 hover:bg-myBlack hover:text-myblue transition-all duration-300 shadow-2xl cursor-pointer;
+    }
+  }
+}

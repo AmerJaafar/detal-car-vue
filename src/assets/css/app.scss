@@ -1,0 +1,68 @@
+@use "./home.scss";
+@use "./header.scss";
+@use "./nav.scss";
+@use "./about.scss";
+@use "./procress.scss";
+@use "./services.scss";
+
+@use "./staisfied.scss";
+@use "./makeAppointment.scss";
+@use "./footer.scss";
+
+* {
+  @apply no-underline box-border text-bginherit m-0 p-0;
+}
+
+body {
+  @apply font-Poppins overflow-x-hidden scroll-smooth scroll-pt-24 text-50% md:text-55% lg:text-62.5% capitalize outline-none box-border;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#btnMenu {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #btnMenu {
+    display: inline-block;
+  }
+  #btnMenu.fa-times {
+    transform: rotate(180deg);
+  }
+
+  .nav {
+    flex-flow: column;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    background: #fff;
+  }
+  .nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .nav a {
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  .header {
+    background-color: #fff;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+*::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 1rem;
+}
+*::-webkit-scrollbar-track {
+  border-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+.btn {
+  @apply inline-block mb-8 py-4 px-6 rounded-lg bg-myblue text-myWight text-1 hover:bg-myBlack hover:text-myblue transition-all duration-300 shadow-2xl;
+}

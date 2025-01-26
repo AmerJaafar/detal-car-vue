@@ -1,0 +1,26 @@
+.services {
+  @apply bg-lightBg py-8;
+  h1 {
+    @apply text-2 text-myblue font-bold text-center mb-8;
+  }
+  .box-container {
+    @apply container mx-auto w-90 grid grid-cols-20 gap-8;
+    .card {
+      @apply max-[320px]:w-90 text-center p-8 bg-myWight shadow-2xl  transition duration-300 ease-linear hover:bg-opacityWhite rounded-lg cursor-pointer;
+
+      img {
+        @apply w-16 inline-block my-4 h-16;
+      }
+      h3 {
+        @apply text-1.5 font-medium text-myBlack py-4;
+      }
+      p {
+        @apply text-1 text-lightColor leading-loose;
+      }
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "img": "alignment specialist.png",
+        "title": "alignment specialist",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "alignment specialist"
+    },
+    {
+        "img": "cosmetic dentistry.png",
+        "title": "cosmetic dentistry",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "cosmetic dentistry"
+    },
+    {
+        "img": "oral hygiene experts.png",
+        "title": "oral hygiene experts",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "oral hygiene experts"
+    },
+    {
+        "img": "root canal specialist.png",
+        "title": "root canal specialist",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "root canal specialist"
+    },
+    {
+        "img": "live dental advisory.png",
+        "title": "live dental advisory",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "live dental advisory"
+    },
+    {
+        "img": "cavity inspection.png",
+        "title": "cavity inspection",
+        "discreption": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.",
+        "alt": "cavity inspection"
+    }
+]

@@ -1,0 +1,12 @@
+.nav {
+  @apply absolute top-[99%] left-0 right-0 border-t-borderColor border-t-0.2 border-solid border-b-0.2 border-borderColor md:static md:border-none text-center md:text-start py-4 md:py-0 flex flex-row ease-linear duration-300 bg-bginherit;
+  .nav-link {
+    @apply mx-6 text-1 text-myBlack hover:text-myblue transition-all;
+    .nav-link.active {
+      @apply text-myblue;
+    }
+  }
+  #btnMenu {
+    @apply text-2 text-myBlack cursor-pointer ease-linear duration-300;
+  }
+}

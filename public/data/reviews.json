@@ -1,0 +1,26 @@
+[
+    {
+        "img": "person1.jpg",
+        "alt": "Reviewer 1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet praesentium commodi nostrum possimus mollitia corrupti!",
+        "stars": 3,
+        "name": "John Doe",
+        "span": "staisfied clients"
+    },
+    {
+        "img": "person2.jpg",
+        "alt": "Reviewer 2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet praesentium commodi nostrum possimus mollitia corrupti",
+        "stars": 4,
+        "name": "Jane Smith",
+        "span": "staisfied clients"
+    },
+    {
+        "img": "person3.jpg",
+        "alt": "Reviewer 2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet praesentium commodi nostrum possimus mollitia corrupti",
+        "stars": 2,
+        "name": "Jane Smith",
+        "span": "staisfied clients"
+    }
+]

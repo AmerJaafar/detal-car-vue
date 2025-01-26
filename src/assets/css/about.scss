@@ -1,0 +1,15 @@
+.about {
+  @apply bg-abuot bg-top bg-no-repeat bg-cover min-h-80 flex items-center justify-center;
+  div {
+    @apply w-full md:w-50 px-6 text-center md:text-left;
+    span {
+      @apply text-2 text-myblue text-center block my-8 font-semibold;
+    }
+    h3 {
+      @apply text-myBlack text-2 font-medium;
+    }
+    p {
+      @apply text-lightColor leading-loose text-0.9 my-8 pr-8;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.header {
+  @apply py-8 shadow-2xl sticky top-0 left-0 w-full z-50 backdrop-blur-sm;
+  .div {
+    @apply container mx-auto px-4;
+  }
+  .logo {
+    @apply text-2 text-myBlack;
+    .text {
+      @apply text-myblue;
+    }
+  }
+  .flex-center-between {
+    @apply flex items-center justify-between;
+    .btn {
+      @apply hidden lg:block;
+    }
+  }
+}

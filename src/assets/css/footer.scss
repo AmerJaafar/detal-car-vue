@@ -1,0 +1,26 @@
+footer {
+  @apply py-8 bg-lightBg;
+  .box-container {
+    @apply container mx-auto w-90 grid grid-cols-15 gap-12;
+    .box {
+      @apply text-1.5 text-center;
+
+      i {
+        @apply h-20 w-20 rounded-full text-2 !leading-20 bg-myblue text-myWight mb-4;
+      }
+      h3 {
+        @apply font-medium text-myBlack py-4 my-4;
+      }
+      p {
+        @apply text-lightColor leading-loose normal-case;
+      }
+    }
+  }
+  .credit {
+    @apply border-0 border-solid  border-t-1 border-t-borderColor  pt-8 mt-8 text-2 text-lightColor pb-8 text-center;
+
+    span {
+      @apply text-myblue;
+    }
+  }
+}
